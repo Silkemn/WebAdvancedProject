@@ -1,0 +1,96 @@
+/* cats */
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background-image: url("/src/catpaws2.png");
+
+  background-size: 100%;
+
+}
+
+h1 {
+  text-align: center;
+  text-decoration: solid;
+  color: rgb(0, 0, 0);
+  text-shadow: 10px;
+  margin-top: 100px;
+
+
+}
+
+.maincontent {
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+
+}
+
+.col-lg {
+  height: 300px;
+  overflow: hidden;
+  margin: 50px 0;
+  position: relative;
+  flex-basis: 30%;
+  border-style: none;
+  border-width: 5px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+#grid .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  padding: 10px;
+
+}
+
+.col-lg img:hover {
+  transform: scale(1.2);
+}
+
+#grid img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.favorite {
+  position: absolute;
+  z-index: 2;
+
+}
+
+.favorited {
+  background-color: red;
+}
+
+.favoriteCheckbox {
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+.Laden {
+  background-color: white;
+
+}
+
+.breedInformation {
+  background-color: white;
+}
