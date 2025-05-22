@@ -1,7 +1,7 @@
 export async function APIconnectie() {
     let page = 1;
     const api_key = "live_0fVuf0Q22tVHszoeEtNZm40Y0zdJ2ku58i9Rl9h5DwRbFiED7KoNPhe1xIvtmSbK";
-
+    //elementen selecteren
     const refreshButton = document.querySelector("#refreshButton");
     const showfavorites = document.getElementById("showfavorites");
     const breedSelect = document.getElementById("breedSelect");
@@ -52,8 +52,8 @@ export async function APIconnectie() {
 
 
     async function getCats() {
-        grid.innerHTML = `<div class="Laden" > Laden... </div>`;
-
+        grid.innerHTML = `<div class="Laden" > Loading... </div>`;
+        breedInfo.innerHTML = "";
         const url = `https://api.thecatapi.com/v1/images/search?limit=27&page=` + page;
         const api_key = "live_0fVuf0Q22tVHszoeEtNZm40Y0zdJ2ku58i9Rl9h5DwRbFiED7KoNPhe1xIvtmSbK"
 
@@ -101,7 +101,7 @@ export async function APIconnectie() {
 
     //  display favorites 
     async function displayFavorites() {
-        grid.innerHTML = `<div class="Laden" > Laden... </div>`;
+        grid.innerHTML = `<div class="Laden" > Loading... </div>`;
         const favorites = getFavorites();
 
         for (const favorite of favorites) {
