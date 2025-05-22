@@ -98,10 +98,10 @@ api_key = "live_0fVuf0Q22tVHszoeEtNZm40Y0zdJ2ku58i9Rl9h5DwRbFiED7KoNPhe1xIvtmSbK
 ![Screenshot 2025-05-22 143626](https://github.com/user-attachments/assets/33114db4-b82e-40eb-b083-ce658c7421f1)
 
 #BRONNEN 
-https://www.w3schools.com/
-https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=s7StySvTw 
-https://chatgpt.com/share/682f1af0-6cb8-8010-8840-f080ca8dbaa1 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-https://docs.npmjs.com/cli/v11/configuring-npm/package-json
+- https://www.w3schools.com/
+- https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=s7StySvTw 
+- https://chatgpt.com/share/682f1af0-6cb8-8010-8840-f080ca8dbaa1 
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://docs.npmjs.com/cli/v11/configuring-npm/package-json
 
      
