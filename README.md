@@ -4,11 +4,11 @@ Cat API
 
 Ik heb een kattenwebsite gemaakt. 
 Je kan : 
-1)Filteren op ras 
-2)Een ras opzoeken
-3)Kattenfoto's opslagen bij favorites 
-4)Favorites bekijken
-5)Een refreshbutton om meer katten te laden
+- Filteren op ras
+- Een ras opzoeken
+- Kattenfoto's opslagen bij favorites
+- Favorites bekijken
+- Een refreshbutton om meer katten te laden
 
 #GEBRUIKTE API:
 https://thecatapi.com/ 
