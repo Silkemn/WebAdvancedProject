@@ -26,7 +26,7 @@ https://thecatapi.com/
 #IMPLEMENTATIE TECHNISCHE VEREISTEN: 
 1) DOM manipulatie:
    
-   -DOM ELEMENTEN SELECTEREN:
+   - DOM ELEMENTEN SELECTEREN:
     - lijn 6: Document.GetElementById gebruikt om DOM elementen te selecteren. Om de favorites te laten tonen
    - lijn 5, lijn 7, lijn 8
    - ELEMENTEN MANIPULEREN: 
@@ -72,26 +72,26 @@ https://thecatapi.com/
    - ontbreekt
 
   4) Data & API :
-     FETCH OM DATA OP TE HALEN :
+    - FETCH OM DATA OP TE HALEN :
      - lijn 66: als de api server een response stuurt wordt dat omgezet naar json code
      - lijn 69: het wordt omgezet naar data
      - lijn 109: haalt data van de kattenapi
      - lijn 134: haalt de breeds van de kattenapi
-     JSON MANIPULEREN EN WEERGEVEN:
+    - JSON MANIPULEREN EN WEERGEVEN:
      - lijn 15: haalt de opgeslagen favorites op
      - lijn 67: zet de data om naar json
      - lijn 112: zet de data om naar json
   5) Opslag en validatie
-     LOCALSTORAGE :
+    - LOCALSTORAGE :
      - lijn 15
      - lijn 19
   6) Styling & layout
-     style.css :
+   -  style.css :
      - lijn 45 display grid
      - lijn 52: display flex 
   8) Tooling & structure
-     vite
-     main.js, src: style.css
+    - vite
+    - main.js, src: style.css
 
 
 #SCREENSHOTS : 
