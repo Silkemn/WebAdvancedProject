@@ -73,7 +73,7 @@ https://thecatapi.com/
 
   4) Data & API :
      FETCH OM DATA OP TE HALEN :
-     -lijn 66: als de api server een response stuurt wordt dat omgezet naar json code
+     - lijn 66: als de api server een response stuurt wordt dat omgezet naar json code
      - lijn 69: het wordt omgezet naar data
      - lijn 109: haalt data van de kattenapi
      - lijn 134: haalt de breeds van de kattenapi
