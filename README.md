@@ -1,7 +1,9 @@
 Cat API
 
 #PROJECTBESCHRIJVING EN FUNCTIONALITEITEN: 
-Ik heb een kattenwebsite gemaakt. Je kan : 
+
+Ik heb een kattenwebsite gemaakt. 
+Je kan : 
 1)Filteren op ras 
 2)Een ras opzoeken
 3)Kattenfoto's opslagen bij favorites 
@@ -21,6 +23,7 @@ api_key = "live_0fVuf0Q22tVHszoeEtNZm40Y0zdJ2ku58i9Rl9h5DwRbFiED7KoNPhe1xIvtmSbK
 
 #IMPLEMENTATIE TECHNISCHE VEREISTEN: 
 1) DOM manipulatie:
+   
    -DOM ELEMENTEN SELECTEREN:
     lijn 6: Document.GetElementById gebruikt om DOM elementen te selecteren. Om de favorites te laten tonen
    - lijn 5, lijn 7, lijn 8
@@ -32,7 +35,7 @@ api_key = "live_0fVuf0Q22tVHszoeEtNZm40Y0zdJ2ku58i9Rl9h5DwRbFiED7KoNPhe1xIvtmSbK
    -  lijn 85-90 : meerdere elementen 
    - lijn 201: showfavorites.AddEventListener: showfavorites aan een event koppelen.
 
-2) Modern Javascript:
+3) Modern Javascript:
    - CONST:
    - lijn 3: const api-key : const voor niet veranderlijke variabelen
    - lijn 5 - 9
@@ -66,7 +69,7 @@ api_key = "live_0fVuf0Q22tVHszoeEtNZm40Y0zdJ2ku58i9Rl9h5DwRbFiED7KoNPhe1xIvtmSbK
    - OBSERVER API :
    - ontbreekt
 
-  3) Data & API :
+  4) Data & API :
      FETCH OM DATA OP TE HALEN :
      -lijn 66: als de api server een response stuurt wordt dat omgezet naar json code
      - lijn 69: het wordt omgezet naar data
@@ -76,7 +79,7 @@ api_key = "live_0fVuf0Q22tVHszoeEtNZm40Y0zdJ2ku58i9Rl9h5DwRbFiED7KoNPhe1xIvtmSbK
      -lijn 15: haalt de opgeslagen favorites op
      -lijn 67: zet de data om naar json
      -lijn 112: zet de data om naar json
-  4) Opslag en validatie
+  5) Opslag en validatie
      LOCALSTORAGE :
      -lijn 15
      -lijn 19
