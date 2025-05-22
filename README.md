@@ -13,13 +13,14 @@ Je kan :
 #GEBRUIKTE API:
 https://thecatapi.com/ 
 
-#INSTALLATIEHANDLEIDING: - 
-api_key = "live_0fVuf0Q22tVHszoeEtNZm40Y0zdJ2ku58i9Rl9h5DwRbFiED7KoNPhe1xIvtmSbK" 
+#INSTALLATIEHANDLEIDING: 
 
-    
+  
     cd my-project 
     npm install
-    npm run dev
+    npm run build
+    npm run preview
+    localhost:4173/main.html
 
 
 #IMPLEMENTATIE TECHNISCHE VEREISTEN: 
