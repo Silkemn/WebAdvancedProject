@@ -16,9 +16,10 @@ https://thecatapi.com/
 #INSTALLATIEHANDLEIDING: 
 api_key = "live_0fVuf0Q22tVHszoeEtNZm40Y0zdJ2ku58i9Rl9h5DwRbFiED7KoNPhe1xIvtmSbK" 
 
-    npm run build
-
-    npm run preview
+    
+    cd my-project 
+    npm install
+    npm run dev
 
 
 #IMPLEMENTATIE TECHNISCHE VEREISTEN: 
