@@ -13,7 +13,7 @@ Je kan :
 #GEBRUIKTE API:
 https://thecatapi.com/ 
 
-#INSTALLATIEHANDLEIDING: 
+#INSTALLATIEHANDLEIDING: - 
 api_key = "live_0fVuf0Q22tVHszoeEtNZm40Y0zdJ2ku58i9Rl9h5DwRbFiED7KoNPhe1xIvtmSbK" 
 
     
@@ -26,7 +26,7 @@ api_key = "live_0fVuf0Q22tVHszoeEtNZm40Y0zdJ2ku58i9Rl9h5DwRbFiED7KoNPhe1xIvtmSbK
 1) DOM manipulatie:
    
    -DOM ELEMENTEN SELECTEREN:
-    lijn 6: Document.GetElementById gebruikt om DOM elementen te selecteren. Om de favorites te laten tonen
+    - lijn 6: Document.GetElementById gebruikt om DOM elementen te selecteren. Om de favorites te laten tonen
    - lijn 5, lijn 7, lijn 8
    - ELEMENTEN MANIPULEREN: 
    -  lijn 55: grid.innerHTML = ""; Gebruikt om de elementen te manipuleren en aan te passen.
@@ -77,17 +77,17 @@ api_key = "live_0fVuf0Q22tVHszoeEtNZm40Y0zdJ2ku58i9Rl9h5DwRbFiED7KoNPhe1xIvtmSbK
      - lijn 109: haalt data van de kattenapi
      - lijn 134: haalt de breeds van de kattenapi
      JSON MANIPULEREN EN WEERGEVEN:
-     -lijn 15: haalt de opgeslagen favorites op
-     -lijn 67: zet de data om naar json
-     -lijn 112: zet de data om naar json
+     - lijn 15: haalt de opgeslagen favorites op
+     - lijn 67: zet de data om naar json
+     - lijn 112: zet de data om naar json
   5) Opslag en validatie
      LOCALSTORAGE :
-     -lijn 15
-     -lijn 19
+     - lijn 15
+     - lijn 19
   6) Styling & layout
      style.css :
-     -lijn 45 display grid
-     -lijn 52: display flex 
+     - lijn 45 display grid
+     - lijn 52: display flex 
   8) Tooling & structure
      vite
      main.js, src: style.css
